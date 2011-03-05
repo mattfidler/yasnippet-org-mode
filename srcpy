@@ -1,4 +1,6 @@
-#name : Perl Source Code Block
+# -*- mode: snippet -*-
+# key: srcpy
+#name : Python Source Code Block
 #contributor : Martyn Jago <martyn.jago@btinternet.com>
 # --
 #+BEGIN_SRC python
