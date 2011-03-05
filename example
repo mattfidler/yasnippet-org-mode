@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
 # key: example
 #name : Example block
-#contributor : Eric Arnebäck <erkastina@hotmai.com>
+#contributor : Eric Arneback <erkastina@hotmail.com>
 # --
 #+BEGIN_EXAMPLE
 ${0}
