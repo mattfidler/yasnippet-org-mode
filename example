@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# key: example
+#name : Example block
+#contributor : Eric Arnebäck <erkastina@hotmai.com>
+# --
+#+BEGIN_EXAMPLE
+${0}
+#+END_EXAMPLE
