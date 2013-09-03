@@ -1,8 +1,8 @@
 # -*- mode: snippet -*-
 # key: srcr
 #name : R Source Code Block
-#contributor : Martyn Jago <martyn.jago@btinternet.com>
+#contributor : Matthew Fidler <matthew.fidler@gmail.com>
 # --
-#+BEGIN_SRC R
+#+BEGIN_SRC R :session *R* 
 $0$>
 #+END_SRC$>
