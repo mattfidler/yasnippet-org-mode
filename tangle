@@ -1,0 +1,6 @@
+# name: tangle property
+# key: tangle
+# contributor: Matthew L. Fidler
+# --
+#+PROPERTY: comments link
+#+PROPERTY: tangle `(file-name-sans-extension (file-name-nondirectory (buffer-file-name)))`.${1:$(file-name-extension (buffer-file-name))}
