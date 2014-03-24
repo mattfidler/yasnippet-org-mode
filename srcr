@@ -3,6 +3,6 @@
 #name : R Source Code Block
 #contributor : Matthew Fidler <matthew.fidler@gmail.com>
 # --
-#+BEGIN_SRC R :session *R* 
+#+BEGIN_SRC R :session *R-$(file-name-sans-extension (file-name-nondirectory (buffer-file-name)))* 
 $0$>
 #+END_SRC$>
