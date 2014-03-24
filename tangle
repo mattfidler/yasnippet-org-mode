@@ -3,4 +3,4 @@
 # contributor: Matthew L. Fidler
 # --
 #+PROPERTY: comments link
-#+PROPERTY: tangle `(file-name-sans-extension (file-name-nondirectory (buffer-file-name)))`.${1:$(file-name-extension (buffer-file-name))}
+#+PROPERTY: tangle `(file-name-sans-extension (file-name-nondirectory (buffer-file-name)))`.${1:`(save-excursion (if (re-search-forward "BEGIN_SRC \\(.*?\\) " nil t) (downcase (match-string 1)) "R"))`}
